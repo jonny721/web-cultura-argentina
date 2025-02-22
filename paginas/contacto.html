@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina</title>
+    <link rel="stylesheet" href="../styles/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src="" alt="Bandera Argentina">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./regiones.html">Regiones</a></li>
+                <li><a href="./maravillas.html">Maravillas</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contacto">
+        <h1>DEJANOS TU OPINIÓN</h1>
+        <div>
+            <form class="formulario">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" />
+                </div>
+
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" />
+                </div>
+
+                <div>
+                    <label for="mail">Mail:</label>
+                    <input type="text" name="mail" />
+                </div>
+
+                <div>
+                    <label for="edad">Edad:</label>
+                    <input type="number" name="edad" />
+                </div>
+
+                <div>
+                    <label for="provincia">Provincia:</label>
+                    <select id="provincia" name="provincia" required>
+                        <option value="" disabled selected>Selecciona una provincia</option>
+                        <option value="buenos_aires">Buenos Aires</option>
+                        <option value="catamarca">Catamarca</option>
+                        <option value="chaco">Chaco</option>
+                        <option value="chubut">Chubut</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="corrientes">Corrientes</option>
+                        <option value="entre_rios">Entre Ríos</option>
+                        <option value="formosa">Formosa</option>
+                        <option value="jujuy">Jujuy</option>
+                        <option value="la_pampa">La Pampa</option>
+                        <option value="la_rioja">La Rioja</option>
+                        <option value="mendoza">Mendoza</option>
+                        <option value="misiones">Misiones</option>
+                        <option value="neuquen">Neuquén</option>
+                        <option value="rio_negro">Río Negro</option>
+                        <option value="salta">Salta</option>
+                        <option value="san_juan">San Juan</option>
+                        <option value="san_luis">San Luis</option>
+                        <option value="santa_cruz">Santa Cruz</option>
+                        <option value="santa_fe">Santa Fe</option>
+                        <option value="santiago_del_estero">Santiago del Estero</option>
+                        <option value="tierra_del_fuego">Tierra del Fuego</option>
+                        <option value="tucuman">Tucumán</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje"></textarea>
+                </div>
+                <div>
+                    <label for="suscribe">Suscribirse a newsletter:</label>
+                    <input type="checkbox" name="suscribe" id="suscribe">
+                </div>
+                <input type="reset" value="Limpiar formulario" />
+                <input type="submit" value="Enviar" />
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Derechos Reservados &copy; 2025</p>
+    </footer>
+</body>
+
+</html>
