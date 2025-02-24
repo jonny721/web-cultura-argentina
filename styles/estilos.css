@@ -2,6 +2,8 @@
     background-color: #131313;
 
 }
-.nav-txt-white{
-    color: white;
+
+
+.activo{
+    font-weight: bold;
 }
