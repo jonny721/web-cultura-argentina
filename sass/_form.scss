@@ -1,0 +1,17 @@
+.bg-op-form{
+    border-bottom: 3px solid white;
+    display: inline-block;
+    width: 50%;
+    height: 25%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .bg-imagen-form {
+    background-image: linear-gradient(to top,rgba(19, 19, 19, 1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), 
+    url(../imagenes/puente_del_inca.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+  }
