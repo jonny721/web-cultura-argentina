@@ -12,11 +12,11 @@
   <link rel="stylesheet" href="./styles/estilos.css">
 </head>
 
-<body class="bg-dark">
-  <!-- Las clases que dicen pr son las clases propias-->
-  <header>
+<body class="bg-fondo">
+
+  <header class="container-fluid padding-nav">
     <nav class="navbar bg-light navbar-expand-md">
-      <div class="container-fluid">
+      <div class="container">
         <a class="navbar-brand" href="#">Mi Logo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
@@ -33,21 +33,36 @@
       </div>
     </nav>
   </header>
+  
   <main>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./imagenes/cataratas.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./imagenes/el_chalten.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./imagenes/norte.jpg" class="d-block w-100" alt="...">
+
+    <section class="bg-imagen text-center pad-center">
+      <div class="bg-op">
+        <h1 class="text-white">Descubre Argentina</h1>
+        <div>
+          <p class="mb-4 text-white">Explora sus paisajes, cultura y maravillas naturales</p>
+          <div class="gap-2 d-sm-flex justify-content-sm-center">
+            <a class="btn btn-light" href="#">Descubrí más</a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
   </main>
+
+
+    <footer class="container">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Inicio</a></li>
+        <li class="nav-item"><a href="./paginas/regiones.html" class="nav-link px-2 text-white">Regiones</a></li>
+        <li class="nav-item"><a href="./paginas/maravillas.html" class="nav-link px-2 text-white">Maravillas</a></li>
+        <li class="nav-item"><a href="./paginas/galeria.html" class="nav-link px-2 text-white">Galería</a></li>
+        <li class="nav-item"><a href="./paginas/contacto.html" class="nav-link px-2 text-white">Contactos</a></li>
+      </ul>
+      <p class="text-center text-white">Derechos Reservados &copy; 2025</p>
+    </footer>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -55,5 +70,3 @@
 </body>
 
 </html>
-
-

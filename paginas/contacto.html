@@ -2,110 +2,115 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Argentina</title>
-  
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/estilos.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Argentina</title>
 
-<body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/estilos.css">
+</head>
 
-    <header>
-        <nav class="navbar bg-light navbar-expand-md">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Mi Logo</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="./regiones.html">Regiones</a></li>
-                <li class="nav-item"><a class="nav-link" href="./maravillas.html">Maravillas</a></li>
-                <li class="nav-item"><a class="nav-link" href="./galeria.html">Galería</a></li>
-                <li class="nav-item"><a class="nav-link activo" href="#">Contactos</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-    <main class="contacto">
-        <h1>DEJANOS TU OPINIÓN</h1>
-        <div>
-            <form class="formulario">
-                <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" />
-                </div>
+<body class="bg-fondo">
 
-                <div>
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido" />
-                </div>
-
-                <div>
-                    <label for="mail">Mail:</label>
-                    <input type="text" name="mail" />
-                </div>
-
-                <div>
-                    <label for="edad">Edad:</label>
-                    <input type="number" name="edad" />
-                </div>
-
-                <div>
-                    <label for="provincia">Provincia:</label>
-                    <select id="provincia" name="provincia" required>
-                        <option value="" disabled selected>Selecciona una provincia</option>
-                        <option value="buenos_aires">Buenos Aires</option>
-                        <option value="catamarca">Catamarca</option>
-                        <option value="chaco">Chaco</option>
-                        <option value="chubut">Chubut</option>
-                        <option value="cordoba">Córdoba</option>
-                        <option value="corrientes">Corrientes</option>
-                        <option value="entre_rios">Entre Ríos</option>
-                        <option value="formosa">Formosa</option>
-                        <option value="jujuy">Jujuy</option>
-                        <option value="la_pampa">La Pampa</option>
-                        <option value="la_rioja">La Rioja</option>
-                        <option value="mendoza">Mendoza</option>
-                        <option value="misiones">Misiones</option>
-                        <option value="neuquen">Neuquén</option>
-                        <option value="rio_negro">Río Negro</option>
-                        <option value="salta">Salta</option>
-                        <option value="san_juan">San Juan</option>
-                        <option value="san_luis">San Luis</option>
-                        <option value="santa_cruz">Santa Cruz</option>
-                        <option value="santa_fe">Santa Fe</option>
-                        <option value="santiago_del_estero">Santiago del Estero</option>
-                        <option value="tierra_del_fuego">Tierra del Fuego</option>
-                        <option value="tucuman">Tucumán</option>
-                    </select>
-                </div>
-
-                <div>
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea name="mensaje" id="mensaje"></textarea>
-                </div>
-                <div>
-                    <label for="suscribe">Suscribirse a newsletter:</label>
-                    <input type="checkbox" name="suscribe" id="suscribe">
-                </div>
-                <input type="reset" value="Limpiar formulario" />
-                <input type="submit" value="Enviar" />
-            </form>
+  <header class="container-fluid padding-nav">
+    <nav class="navbar bg-light navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mi Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link activo" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="./regiones.html">Regiones</a></li>
+            <li class="nav-item"><a class="nav-link" href="./maravillas.html">Maravillas</a></li>
+            <li class="nav-item"><a class="nav-link" href="./galeria.html">Galería</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contactos</a></li>
+          </ul>
         </div>
+      </div>
+    </nav>
+  </header>
 
-    </main>
+  <main>
 
-    <footer>
-        <p>Derechos Reservados &copy; 2025</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <section class="bg-imagen-form text-center pad-center">
+      <div class="bg-op-form">
+        <h1 class="text-white">DEJANOS UN COMENTARIO</h1>
+      </div>
+    </section>
+
+    <section class="container p-5 mt-3 mb-5">
+      <div>
+        <div class="col">
+          <form>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label text-white">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
+                aria-describedby="emailHelp">
+            </div>
+
+            <div class="row mb-3">
+              <label for="exampleImputName" class="form-label text-white"> Nombre y Apellido</label>
+              <div class="col">
+                <input type="text" class="form-control mb-4" placeholder="Nombre" aria-label="First name">
+              </div>
+
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="ExampleImpuntImage" class="form-label text-white">Selecciona una Región</label>
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected>Selecciona una categoría</option>
+                <option value="1">Noroeste</option>
+                <option value="2">Cuyo</option>
+                <option value="3">Patagonia</option>
+                <option value="4">Región Pampeana</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="formFile" class="form-label text-white">Seleccione una imagen</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label text-white">Comentario</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label text-white" for="exampleCheck1">Acepto los terminos y condiciones</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-white">Inicio</a></li>
+      <li class="nav-item"><a href="./regiones.html" class="nav-link px-2 text-white">Regiones</a></li>
+      <li class="nav-item"><a href="./maravillas.html" class="nav-link px-2 text-white">Maravillas</a></li>
+      <li class="nav-item"><a href="./galeria.html" class="nav-link px-2 text-white">Galería</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Contactos</a></li>
+    </ul>
+    <p class="text-center text-white">Derechos Reservados &copy; 2025</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 </body>
