@@ -1,7 +1,12 @@
+@use "body";
+
+.bg-nav{
+    background-color: body.$color-primary-body;
+}
 .activo{
     font-weight: bold;
 }
 
 .padding-nav{
     padding: 0px;
-  }
+}

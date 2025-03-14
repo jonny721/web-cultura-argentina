@@ -1,6 +1,30 @@
 $color-primary-body: #131313;
+$color-secundary-body: #3d3d3d;
 
 .bg-fondo{
     background-color: $color-primary-body;
   }
 
+  .borde-regiones{
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 10px;
+  }
+
+  .borde-img{
+    border-radius: 10px;
+  }
+
+  .borde-separador{
+    border-bottom: 1px solid white;
+    margin-bottom: 25px;
+  }
+
+  .bg-fondo-regiones{
+    background: linear-gradient(to top, $color-primary-body, $color-secundary-body);
+  }
+
+  .borde-bg-blanco{
+    border-top: 1px solid $color-primary-body;
+    margin-top: 5%;
+  }

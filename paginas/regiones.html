@@ -2,29 +2,29 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Argentina</title>
-  
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/style.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Argentina</title>
 
-<body class="bg-fondo">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body class="bg-fondo-regiones">
 
   <header class="container-fluid padding-nav">
     <nav class="navbar bg-light navbar-expand-md">
       <div class="container">
-        <a class="navbar-brand" href="#">Mi Logo</a>
+        <a class="navbar-brand" href="#">Cultura Argentina</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link activo" href="../index.html">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Regiones</a></li>
+            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link activo" href="#">Regiones</a></li>
             <li class="nav-item"><a class="nav-link" href="./maravillas.html">Maravillas</a></li>
             <li class="nav-item"><a class="nav-link" href="./galeria.html">Galería</a></li>
             <li class="nav-item"><a class="nav-link" href="./contacto.html">Contactos</a></li>
@@ -34,72 +34,230 @@
     </nav>
   </header>
 
-    <main>
-        <h1>Regiones de Argentina</h1>
-        <section>
-            </div>
-            <h2>Noroeste Argentino</h2>
-            <p> El Noroeste Argentino (NOA) es una de las regiones más fascinantes del país, donde la historia, la
-                naturaleza y la cultura se entrelazan en un paisaje único. Compuesto por las provincias de Jujuy, Salta,
-                Tucumán, Catamarca, La Rioja y Santiago del Estero, este rincón del país cautiva con su geografía
-                diversa, que va desde las áridas quebradas hasta los verdes valles y las imponentes montañas de la
-                Cordillera de los Andes. </p>
-            <p> La región es famosa por sus coloridos cerros, como el Cerro de los Siete Colores en Purmamarca y la
-                Quebrada de Humahuaca, un Patrimonio de la Humanidad reconocido por la UNESCO. Además, ciudades como
-                Salta y San Miguel de Tucumán combinan arquitectura colonial con una vibrante vida cultural,
-                convirtiéndose en puntos de partida para explorar la riqueza natural y tradicional del NOA. </p>
-            </div>
-            <div>
-                <img src="../imagenes/norte.jpg" alt="Norte">
-            </div>
-            <div>
-                <h2>Cultura y Tradiciones del NOA</h2>
-                <p>
-                    El Noroeste Argentino es una de las regiones con mayor riqueza cultural del país, con profundas
-                    raíces indígenas y una fuerte herencia colonial. Las costumbres, la gastronomía y las festividades
-                    reflejan la fusión de estas influencias.</p>
+  <main class="container">
+    <h1 class="text-white text-center margen-titulo">Regiones de Argentina</h1>
+    <section class="borde-regiones">
+      <div id="noroeste" class="borde-separador">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h2 class="text-white mb-2">Noroeste Argentino</h2>
+            <p class="text-white mb-2"> El Noroeste Argentino (NOA) es una de las regiones más fascinantes del país,
+              donde la historia, la
+              naturaleza y la cultura se entrelazan en un paisaje único. Compuesto por las provincias de Jujuy, Salta,
+              Tucumán, Catamarca, La Rioja y Santiago del Estero, este rincón del país cautiva con su geografía
+              diversa, que va desde las áridas quebradas hasta los verdes valles y las imponentes montañas de la
+              Cordillera de los Andes. </p>
+            <p class="text-white mb-2"> La región es famosa por sus coloridos cerros, como el Cerro de los Siete Colores
+              en Purmamarca y la
+              Quebrada de Humahuaca, un Patrimonio de la Humanidad reconocido por la UNESCO. Además, ciudades como
+              Salta y San Miguel de Tucumán combinan arquitectura colonial con una vibrante vida cultural,
+              convirtiéndose en puntos de partida para explorar la riqueza natural y tradicional del NOA. </p>
+          </div>
+          <div class="col-12 col-lg-6 d-flex align-items-center">
+            <img class="img-fluid borde-img" src="../imagenes/norte.jpg" alt="Norte">
+          </div>
 
-                <ol class="punteo">
-                    <li>
-                        <p>Herencia Indígena y Andina: Pueblos originarios como los omaguacas, diaguitas y calchaquíes
-                            han
-                            dejado su huella en la arquitectura, la música y el arte. Muchas de sus tradiciones se
-                            mantienen
-                            vivas, como el culto a la Pachamama, una ceremonia de agradecimiento a la Madre Tierra.</p>
-                    </li>
-                    <li>
-                        <p>Festividades y Música: El Carnaval de Jujuy, la Fiesta del Milagro en Salta y la Fiesta
-                            Nacional de
-                            la Pachamama en Amaicha del Valle son celebraciones emblemáticas. La música folclórica, con
-                            ritmos
-                            como la chacarera y la zamba, acompaña estos eventos y es parte fundamental de la identidad
-                            regional.</p>
-                    </li>
-                    <li>
-                        <p>Gastronomía: La comida del NOA es un reflejo de su historia y geografía. Platos típicos como
-                            la
-                            empanada salteña, la humita, el locro y la carbonada son parte del día a día, mientras que
-                            la
-                            producción de vinos de altura en los Valles Calchaquíes ha ganado reconocimiento
-                            internacional.</p>
-                    </li>
-                </ol>
-            </div>
-        </section>
-    </main>
+          <h3 class="text-white text-center m-3">Cultura y Tradiciones del NOA</h3>
+          <p class="text-white">
+            El Noroeste Argentino es una de las regiones con mayor riqueza cultural del país, con profundas
+            raíces indígenas y una fuerte herencia colonial. Las costumbres, la gastronomía y las festividades
+            reflejan la fusión de estas influencias.</p>
 
-    <footer class="container">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-white">Inicio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Regiones</a></li>
-        <li class="nav-item"><a href="./maravillas.html" class="nav-link px-2 text-white">Maravillas</a></li>
-        <li class="nav-item"><a href="./galeria.html" class="nav-link px-2 text-white">Galería</a></li>
-        <li class="nav-item"><a href="./contacto.html" class="nav-link px-2 text-white">Contactos</a></li>
-      </ul>
-      <p class="text-center text-white">Derechos Reservados &copy; 2025</p>
-    </footer>
+          <ol class="punteo text-white">
+            <li>
+              <p>Herencia Indígena y Andina: Pueblos originarios como los omaguacas, diaguitas y calchaquíes
+                han
+                dejado su huella en la arquitectura, la música y el arte. Muchas de sus tradiciones se
+                mantienen
+                vivas, como el culto a la Pachamama, una ceremonia de agradecimiento a la Madre Tierra.</p>
+            </li>
+            <li>
+              <p>Festividades y Música: El Carnaval de Jujuy, la Fiesta del Milagro en Salta y la Fiesta
+                Nacional de
+                la Pachamama en Amaicha del Valle son celebraciones emblemáticas. La música folclórica, con
+                ritmos
+                como la chacarera y la zamba, acompaña estos eventos y es parte fundamental de la identidad
+                regional.</p>
+            </li>
+            <li>
+              <p>Gastronomía: La comida del NOA es un reflejo de su historia y geografía. Platos típicos como
+                la
+                empanada salteña, la humita, el locro y la carbonada son parte del día a día, mientras que
+                la
+                producción de vinos de altura en los Valles Calchaquíes ha ganado reconocimiento
+                internacional.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div id="cuyo" class="borde-separador">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h2 class="text-white mb-2">Cuyo</h2>
+            <p class="text-white mb-2">La región de Cuyo es una de las más emblemáticas de Argentina, donde la
+              geografía, la historia y la cultura se fusionan en un paisaje imponente. Compuesta por las provincias de
+              Mendoza, San Juan y San Luis, esta zona cautiva con su diversidad natural, que abarca desde áridos
+              desiertos y montañas majestuosas hasta fértiles valles ideales para la vitivinicultura. Con la Cordillera
+              de los Andes como telón de fondo, Cuyo es reconocida por sus viñedos de renombre mundial, su legado
+              histórico y sus paisajes que invitan a la aventura y el descubrimiento. </p>
+            <p class="text-white mb-2">Cuyo es célebre por sus imponentes paisajes montañosos, como el Aconcagua, la
+              cumbre más alta de América, y el Valle de la Luna, con sus formaciones rocosas únicas. Además, ciudades
+              como Mendoza y San Juan combinan una rica herencia colonial con una próspera cultura del vino,
+              convirtiéndose en puntos de partida ideales para recorrer bodegas, explorar parques nacionales y descubrir
+              la esencia de esta fascinante región. </p>
+          </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          <div class="col-12 col-lg-6 d-flex align-items-center">
+            <img class="img-fluid borde-img" src="../imagenes/norte.jpg" alt="Norte">
+          </div>
+
+          <h3 class="text-white text-center m-3">Cultura y Tradiciones de Cuyo</h3>
+          <p class="text-white">
+            La región de Cuyo es un símbolo de identidad argentina, donde la tradición vitivinícola, la herencia
+            indígena y la influencia colonial se entrelazan en sus costumbres, festividades y gastronomía.</p>
+
+          <ol class="punteo text-white">
+            <li>
+              <p>Herencia Indígena y Andina: Los huarpes, antiguos habitantes de la región, dejaron su legado en la
+                cultura del agua, con canales de riego que aún hoy nutren los viñedos y cultivos. Con la llegada de los
+                españoles, la viticultura se convirtió en una de las principales actividades económicas, dando origen a
+                la tradición del vino en la región.</p>
+            </li>
+            <li>
+              <p>Festividades y Música: Cuyo es hogar de festividades icónicas como la Fiesta Nacional de la Vendimia en
+                Mendoza, donde se celebra la cosecha de la uva con desfiles y espectáculos. Otras celebraciones, como la
+                Fiesta del Sol en San Juan y la del Cristo de la Quebrada en San Luis, reflejan la devoción y la
+                identidad cultural cuyana. En cuanto a la música, el folclore se manifiesta en tonadas y cuecas, géneros
+                típicos que acompañan peñas y reuniones tradicionales.</p>
+            </li>
+            <li>
+              <p>Gastronomía: La cocina cuyana es un reflejo de su geografía y clima. Platos como la empanada cuyana,
+                con su característico relleno especiado, la sopaipilla y el chivo a la llama son infaltables en la mesa
+                regional. Además, Cuyo es la cuna del vino argentino, con bodegas que producen algunos de los mejores
+                Malbec y Cabernet Sauvignon del mundo.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div id="Patagonia" class="borde-separador">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h2 class="text-white mb-2">Patagonia</h2>
+            <p class="text-white mb-2">La Patagonia es una de las regiones más imponentes de Argentina, donde la
+              naturaleza, la historia y la cultura se combinan en un escenario de belleza inigualable. Compuesta por las
+              provincias de Neuquén, Río Negro, Chubut, Santa Cruz y Tierra del Fuego, esta vasta región se extiende
+              desde la Cordillera de los Andes hasta el Atlántico, ofreciendo paisajes que van desde bosques y lagos
+              cristalinos hasta estepas áridas y glaciares monumentales. </p>
+            <p class="text-white mb-2">La región es famosa por maravillas naturales como el Glaciar Perito Moreno en
+              Santa Cruz y el Parque Nacional Nahuel Huapi en Bariloche. Además, ciudades como Ushuaia, la más austral
+              del mundo, y Puerto Madryn, con su impresionante avistaje de ballenas, combinan aventura y cultura,
+              convirtiéndose en destinos ideales para explorar la inmensidad y biodiversidad patagónica. </p>
+          </div>
+
+          <div class="col-12 col-lg-6 d-flex align-items-center">
+            <img class="img-fluid borde-img" src="../imagenes/norte.jpg" alt="Norte">
+          </div>
+
+          <h3 class="text-white text-center m-3">Cultura y Tradiciones de la Patagonia</h3>
+          <p class="text-white">
+            La Patagonia argentina es una tierra de contrastes, donde las tradiciones indígenas, la influencia europea y
+            la vida de los pioneros han dado forma a una identidad única.</p>
+
+          <ol class="punteo text-white">
+            <li>
+              <p>Herencia Indígena y Andina: Pueblos originarios como los mapuches y tehuelches han dejado su huella en
+                la región a través de su lengua, su arte y su cosmovisión. Con la llegada de colonos europeos, como los
+                galeses en Chubut y los alemanes en la zona andina, se incorporaron nuevas costumbres, como la
+                tradicional ceremonia del té galés y la arquitectura alpina en ciudades como San Carlos de Bariloche.
+              </p>
+            </li>
+            <li>
+              <p>Festividades y Música: Las celebraciones en la Patagonia reflejan su diversidad cultural. La Fiesta
+                Nacional del Lago en El Calafate y la Fiesta del Poncho en Neuquén destacan la conexión con la
+                naturaleza, mientras que eventos como la Fiesta Nacional del Esquí en Bariloche celebran los deportes
+                invernales. La música patagónica, con influencias del folclore y la cultura tehuelche-mapuche, se mezcla
+                con géneros modernos en festivales y peñas.
+
+              </p>
+            </li>
+            <li>
+              <p>Gastronomía: La cocina patagónica es tan diversa como su paisaje. Platos emblemáticos como el cordero
+                patagónico asado, la trucha de los ríos andinos y los mariscos de la costa atlántica son parte esencial
+                de su identidad culinaria. Además, la región es famosa por sus dulces artesanales, como el chocolate de
+                Bariloche y los frutos rojos de El Bolsón, que complementan una gastronomía única en Argentina.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div id="Pampeana" class="borde-separador">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h2 class="text-white mb-2">La Región Pampeana</h2>
+            <p class="text-white mb-2">La Región Pampeana es el corazón productivo de Argentina, caracterizada por su
+              inmensa llanura fértil y su papel clave en la economía y la historia del país. Compuesta por las
+              provincias de Buenos Aires, La Pampa, Santa Fe, Córdoba y Entre Ríos, esta región se distingue por sus
+              extensos campos, ideales para la ganadería y la agricultura, además de albergar a Buenos Aires, la ciudad
+              más grande y cosmopolita del país.
+            </p>
+            <p class="text-white mb-2">La llanura pampeana es el escenario de pintorescos pueblos rurales y grandes
+              ciudades con una rica historia. Buenos Aires, con su arquitectura europea y su vibrante vida cultural, es
+              el epicentro del país. Ciudades como Rosario y Córdoba combinan tradición e innovación, mientras que
+              lugares como San Antonio de Areco preservan la esencia gauchesca con sus estancias y festividades
+              criollas.
+            </p>
+          </div>
+
+          <div class="col-12 col-lg-6 d-flex align-items-center">
+            <img class="img-fluid borde-img" src="../imagenes/norte.jpg" alt="Norte">
+          </div>
+
+          <h3 class="text-white text-center m-3">Cultura y Tradiciones de la Región Pampeana</h3>
+          <p class="text-white">
+            La identidad pampeana está profundamente ligada a la figura del gaucho, la música folclórica y una
+            gastronomía icónica que refleja la riqueza de su suelo.</p>
+
+          <ol class="punteo text-white">
+            <li>
+              <p>Herencia Indígena y Andina: La cultura de la región pampeana es una fusión entre las tradiciones
+                criollas, heredadas de los gauchos y los pueblos originarios, y la influencia de los inmigrantes
+                europeos, principalmente españoles e italianos. La figura del gaucho, símbolo de libertad y destreza
+                ecuestre, sigue viva en las fiestas tradicionales y en la vida rural de la región.
+              </p>
+            </li>
+            <li>
+              <p>Festividades y Música: Las celebraciones pampeanas reflejan la identidad rural y gauchesca. La Fiesta
+                de la Tradición en San Antonio de Areco rinde homenaje a las costumbres criollas con desfiles,
+                jineteadas y payadas. En Córdoba, el Festival Nacional de Folklore de Cosquín es uno de los eventos
+                musicales más importantes del país, donde la chacarera, la zamba y la milonga tienen un lugar destacado.
+              </p>
+            </li>
+            <li>
+              <p>Gastronomía: La cocina pampeana es sinónimo de asado, una tradición que forma parte del ADN argentino.
+                La carne de la región es reconocida mundialmente por su calidad y sabor. Además del asado, platos como
+                las empanadas, el locro y el mate son parte fundamental de la vida cotidiana. La influencia europea se
+                refleja en la pastelería, con delicias como las facturas y el dulce de leche, que han conquistado el
+                paladar de generaciones.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-white">Inicio</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Regiones</a></li>
+      <li class="nav-item"><a href="./maravillas.html" class="nav-link px-2 text-white">Maravillas</a></li>
+      <li class="nav-item"><a href="./galeria.html" class="nav-link px-2 text-white">Galería</a></li>
+      <li class="nav-item"><a href="./contacto.html" class="nav-link px-2 text-white">Contactos</a></li>
+    </ul>
+    <p class="text-center text-white">Derechos Reservados &copy; 2025</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 </body>

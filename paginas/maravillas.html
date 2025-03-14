@@ -12,63 +12,81 @@
   <link rel="stylesheet" href="../styles/style.css">
 </head>
 
-<body class="bg-fondo">
+<body class="">
 
   <header class="container-fluid padding-nav">
-    <nav class="navbar bg-light navbar-expand-md">
+    <nav class="navbar bg-nav navbar-expand-md">
       <div class="container">
-        <a class="navbar-brand" href="#">Mi Logo</a>
+        <a class="navbar-brand text-white" href="#">Cultura Argentina</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link activo" href="../index.html">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="./regiones.html">Regiones</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Maravillas</a></li>
-            <li class="nav-item"><a class="nav-link" href="./galeria.html">Galería</a></li>
-            <li class="nav-item"><a class="nav-link" href="./contacto.html">Contactos</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="./regiones.html">Regiones</a></li>
+            <li class="nav-item"><a class="nav-link text-white activo" href="#">Maravillas</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="./galeria.html">Galería</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="./contacto.html">Contactos</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
-    <main>
-        <h1>Lo mejor de Argentina</h1>
-        <section>
-            </div>
-            <h2>El Chaltén: La Capital Nacional del Trekking</h2>
-            <p>Ubicado en la provincia de Santa Cruz, dentro del majestuoso Parque Nacional Los Glaciares, El Chaltén es
-                un destino imperdible para los amantes de la naturaleza y el senderismo. Conocido como la Capital
-                Nacional del Trekking, este pintoresco pueblo de montaña ofrece imponentes paisajes, con el icónico
-                Cerro Fitz Roy y el Cerro Torre dominando el horizonte.
-                Sus numerosos senderos llevan a lagunas de aguas turquesas, glaciares imponentes y miradores
-                panorámicos, adaptándose a todos los niveles de experiencia. Además de su belleza natural, El Chaltén es
-                un refugio para aventureros, fotógrafos y viajeros en busca de desconexión y aire puro en plena
-                Patagonia.
-                Ya sea para realizar caminatas cortas, ascensos exigentes o simplemente disfrutar de la tranquilidad del
-                entorno, El Chaltén es un destino que deja huella en cada visitante. </p>
-            </div>
-            <div>
-                <img src="../imagenes/el_chalten.jpg" alt="El Chaltén">
-            </div>
-        </section>
-    </main>
+  <main>
+    <h1 class="text-center m-4">Lo mejor de Argentina</h1>
+    <section class="container">
+      <div>
+        <h2 class="mb-4">El Chaltén: La Capital Nacional del Trekking</h2>
+        <img src="../imagenes/el_chalten.jpg" class="img-fluid borde-img" alt="El Chaltén">
+      </div>
 
-    <footer class="container">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-white">Inicio</a></li>
-        <li class="nav-item"><a href="./regiones.html" class="nav-link px-2 text-white">Regiones</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Maravillas</a></li>
-        <li class="nav-item"><a href="./galeria.html" class="nav-link px-2 text-white">Galería</a></li>
-        <li class="nav-item"><a href="./contacto.html" class="nav-link px-2 text-white">Contactos</a></li>
-      </ul>
-      <p class="text-center text-white">Derechos Reservados &copy; 2025</p>
-    </footer>
+      </div>
+      <div class="borde-separador mt-lg-3 mt-sm-2">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h3>Paisajes imponentes y aventura en la cuna del trekking patagónico.</h3>
+            <p class="mb-2"> Ubicado en la provincia de Santa Cruz, dentro del majestuoso Parque Nacional Los Glaciares,
+              El Chaltén es
+              un destino imperdible para los amantes de la naturaleza y el senderismo. Conocido como la Capital
+              Nacional del Trekking, este pintoresco pueblo de montaña ofrece imponentes paisajes, con el icónico
+              Cerro Fitz Roy y el Cerro Torre dominando el horizonte.
+              Sus numerosos senderos llevan a lagunas de aguas turquesas, glaciares imponentes y miradores
+              panorámicos, adaptándose a todos los niveles de experiencia. Además de su belleza natural, El Chaltén es
+              un refugio para aventureros, fotógrafos y viajeros en busca de desconexión y aire puro en plena
+              Patagonia.
+              Ya sea para realizar caminatas cortas, ascensos exigentes o simplemente disfrutar de la tranquilidad del
+              entorno, El Chaltén es un destino que deja huella en cada visitante. </p>
+          </div>
+          <div class="col-12 col-lg-6 d-flex align-items-center">
+            <iframe class="borde-img"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d70009.72795423587!2d-72.98705056661552!3d-49.300039341128986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdbd050fbf1cbcf9%3A0x460c7b53b74a4ee3!2sLaguna%20de%20los%20Tres!5e0!3m2!1ses!2sar!4v1741906949476!5m2!1ses!2sar"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+
+  <footer class="container borde-bg-blanco">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3 mt-4">
+      <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-dark">Inicio</a></li>
+      <li class="nav-item"><a href="./regiones.html" class="nav-link px-2 text-dark">Regiones</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-dark">Maravillas</a></li>
+      <li class="nav-item"><a href="./galeria.html" class="nav-link px-2 text-dark">Galería</a></li>
+      <li class="nav-item"><a href="./contacto.html" class="nav-link px-2 text-dark">Contactos</a></li>
+    </ul>
+    <p class="text-center">Derechos Reservados &copy; 2025</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 </body>
